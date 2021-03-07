@@ -1,0 +1,127 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 15502526000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user should open login page",
+            "match": {
+              "location": "stepdefinitions.LoginStepDef.user_should_open_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user click login with facebook",
+            "match": {
+              "location": "stepdefinitions.LoginStepDef.user_click_login_with_facebook()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6563650800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user type facebook account credential",
+            "match": {
+              "location": "stepdefinitions.LoginStepDef.user_type_facebook_account_credential()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-07T11:16:13.117Z",
+        "line": 8,
+        "name": "User should be able to see footer links on all page",
+        "description": "",
+        "id": "check-footer-link;user-should-be-able-to-see-footer-links-on-all-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2069135000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user goto footer section",
+            "match": {
+              "location": "stepdefinitions.FooterStepDef.user_goto_footer_section()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2114141500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user write footer link on txt file",
+            "match": {
+              "location": "stepdefinitions.FooterStepDef.user_write_footer_link_on_txt_file()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1272255600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user click \"Canlı Yardım\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Canlı Yardım\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepdefinitions.FooterStepDef.user_click_link(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 121982200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user check all link",
+            "match": {
+              "location": "stepdefinitions.FooterStepDef.user_check_al_link()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@task3"
+          }
+        ]
+      }
+    ],
+    "name": "Check footer link",
+    "description": "",
+    "id": "check-footer-link",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/footer.feature",
+    "tags": []
+  }
+]
